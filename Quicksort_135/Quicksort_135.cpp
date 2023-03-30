@@ -94,6 +94,14 @@ void q_short(int low, int high)
     q_short(j + 1, high);                             // Langkah Algoritma no.13
 
 }
+
+void display() {
+    cout << "\n-------------------" << endl;
+    cout << "Sorted Array" << endl;
+    cout << "\n-------------------" << endl;
+
+    for (int i = 0; i < n; i++)
+}
 int main()
 {
     std::cout << "Hello World!\n";
