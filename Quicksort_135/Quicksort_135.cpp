@@ -76,9 +76,11 @@ void q_short(int low, int high)
         if (i < j)                                      // langkah Algoritma no.9
         {
             //swap the element at index i whit the element at index j
-           
+            swap(i, j);
+            mov_count++;
         }
     }
+    
 }
 int main()
 {
