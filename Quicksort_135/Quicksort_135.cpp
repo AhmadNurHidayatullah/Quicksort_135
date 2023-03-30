@@ -38,6 +38,22 @@ void swap(int x, int y)
     arr[x] = arr[y];
     arr[y] = temp;
 }
+
+void q_short(int low, int high)
+{
+    int pivot, i, j;
+    if (low > high)                               // langkah algoritma no.1
+        return;      
+
+    // partition the list into two parts:
+    //one containing elements less that or equal to pivot
+    // Outher conntaining element greather than pivot
+
+    pivot = arr[low];                            // Langkah algoritma no. 2
+
+    i = low + 1;                                 // Langkah Algoritma no.3
+    j = high;                                    // langkah Algoritma no.4
+}
 int main()
 {
     std::cout << "Hello World!\n";
